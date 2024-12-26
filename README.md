@@ -1,13 +1,13 @@
 # NotAIonSol 🤖
 
 <div align="center">
-  <img src="./docs/static/img/eliza_banner.jpg" alt="Eliza Banner" width="100%" />
+  <img src="./docs/static/img/notaionsol.png" alt="NotAIonSol Banner" width="100%" />
 </div>
 
 <div align="center">
-  
-  📖 [Documentation](https://ai16z.github.io/eliza/) | 🎯 [Examples](https://github.com/thejoven/awesome-eliza)
-  
+
+📖 [Documentation](https://ai16z.github.io/eliza/) | 🎯 [Examples](https://github.com/thejoven/awesome-eliza)
+
 </div>
 
 ## 🌍 README Translations
@@ -16,59 +16,59 @@
 
 ## ✨ Features
 
--   🛠️ Full-featured Discord, Twitter and Telegram connectors
--   🔗 Support for every model (Llama, Grok, OpenAI, Anthropic, etc.)
--   👥 Multi-agent and room support
--   📚 Easily ingest and interact with your documents
--   💾 Retrievable memory and document store
--   🚀 Highly extensible - create your own actions and clients
--   ☁️ Supports many models (local Llama, OpenAI, Anthropic, Groq, etc.)
--   📦 Just works!
+- 🛠️ Full-featured Discord, Twitter and Telegram connectors
+- 🔗 Support for every model (Llama, Grok, OpenAI, Anthropic, etc.)
+- 👥 Multi-agent and room support
+- 📚 Easily ingest and interact with your documents
+- 💾 Retrievable memory and document store
+- 🚀 Highly extensible - create your own actions and clients
+- ☁️ Supports many models (local Llama, OpenAI, Anthropic, Groq, etc.)
+- 📦 Just works!
 
 ## 🎯 Use Cases
 
--   🤖 Chatbots
--   🕵️ Autonomous Agents
--   📈 Business Process Handling
--   🎮 Video Game NPCs
--   🧠 Trading
+- 🤖 Chatbots
+- 🕵️ Autonomous Agents
+- 📈 Business Process Handling
+- 🎮 Video Game NPCs
+- 🧠 Trading
 
 ## 🚀 Quick Start
 
 ### Prerequisites
 
--   [Python 2.7+](https://www.python.org/downloads/)
--   [Node.js 23+](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
--   [pnpm](https://pnpm.io/installation)
+- [Python 2.7+](https://www.python.org/downloads/)
+- [Node.js 23+](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+- [pnpm](https://pnpm.io/installation)
 
 > **Note for Windows Users:** [WSL 2](https://learn.microsoft.com/en-us/windows/wsl/install-manual) is required.
 
 ### Use the Starter (Recommended)
 
 ```bash
-git clone https://github.com/ai16z/eliza-starter.git
+git clone https://github.com/NotAIonSol/NotAIonSol.git
 
 cp .env.example .env
 
 pnpm i && pnpm start
 ```
 
-Then read the [Documentation](https://ai16z.github.io/eliza/) to learn how to customize your Eliza.
+Then read the [Documentation](https://ai16z.github.io/eliza/) to learn how to customize your NotAIonSol.
 
-### Manually Start Eliza (Only recommended if you know what you are doing)
+### Manually Start NotAIonSol (Only recommended if you know what you are doing)
 
 ```bash
 # Clone the repository
-git clone https://github.com/ai16z/eliza.git
+git clone https://github.com/NotAIonSol/NotAIonSol.git
 
 # Checkout the latest release
 # This project iterates fast, so we recommend checking out the latest release
 git checkout $(git describe --tags --abbrev=0)
 ```
 
-### Start Eliza with Gitpod
+### Start NotAIonSol with Gitpod
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ai16z/eliza/tree/main)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/NotAIonSol/NotAIonSol/tree/main)
 
 ### Edit the .env file
 
@@ -80,7 +80,7 @@ cp .env.example .env
 
 Note: .env is optional. If your planning to run multiple distinct agents, you can pass secrets through the character JSON
 
-### Automatically Start Eliza
+### Automatically Start NotAIonSol
 
 This will run everything to setup the project and start the bot with the default character.
 
@@ -98,7 +98,7 @@ sh scripts/start.sh
 3. Connect with X (Twitter)
     - change `"clients": []` to `"clients": ["twitter"]` in the character file to connect with X
 
-### Manually Start Eliza
+### Manually Start NotAIonSol
 
 ```bash
 pnpm i
@@ -119,8 +119,8 @@ pnpm install --include=optional sharp
 
 ### Community & contact
 
--   [GitHub Issues](https://github.com/ai16z/eliza/issues). Best for: bugs you encounter using Eliza, and feature proposals.
--   [Discord](https://discord.gg/ai16z). Best for: sharing your applications and hanging out with the community.
+- [GitHub Issues](https://github.com/ai16z/eliza/issues). Best for: bugs you encounter using NotAIonSol, and feature proposals.
+- [Discord](https://discord.gg/ai16z). Best for: sharing your applications and hanging out with the community.
 
 ## Contributors
 
